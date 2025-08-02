@@ -2,30 +2,29 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <!-- Meta tags for social media banners, these should be filled in appropriately as they are your "business card" -->
+  <meta name="description" content="StackMathQA: A large-scale dataset of nearly 2 million mathematical question-and-answer pairs from the Stack Exchange network, designed for training and evaluating large language models.">
+  <meta property="og:title" content="StackMathQA: A Large-Scale Mathematical QA Dataset"/>
+  <meta property="og:description" content="StackMathQA is a comprehensive dataset containing nearly 2 million question-and-answer pairs sourced from premier platforms like Math Stack Exchange and MathOverflow."/>
+  <meta property="og:url" content="https://math-ai.github.io/StackMathQA/"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimensions are 1200X630-->
+  <meta property="og:image" content="static/image/stackmathqa_banner.png" />
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
 
 
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:title" content="StackMathQA: A Large-Scale Mathematical QA Dataset">
+  <meta name="twitter:description" content="StackMathQA is a comprehensive dataset containing nearly 2 million question-and-answer pairs sourced from premier platforms like Math Stack Exchange and MathOverflow.">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimensions are 1200X600-->
+  <meta name="twitter:image" content="static/images/stackmathqa_banner.png">
   <meta name="twitter:card" content="summary_large_image">
   <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="keywords" content="Mathematics, Dataset, LLM, Language Models, AI, Stack Exchange, MathOverflow, Question Answering, Reasoning">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <title>StackMathQA Dataset</title>
+  <link rel="icon" type="image/x-icon" href="static/images/iiis.png">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -39,7 +38,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/fontawesome.all.min.js"></script>
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
@@ -52,233 +51,141 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">StackMathQA: A Large-Scale Dataset of Mathematical Questions and Answers</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+                <a href="https://yifzhang.com" target="_blank">Yifan Zhang</a></span>
+                </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">math-ai</span>
                   </div>
+
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
-                         <!-- Arxiv PDF link -->
+                         <!-- Technical Report link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://stackmathqa.github.io/StackMathQA.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                         </span>
-                        <span>Paper</span>
+                        <span>Technical Report</span>
                       </a>
                     </span>
 
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- Github link -->
+                  <!-- HuggingFace link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
+                    <a href="https://huggingface.co/datasets/math-ai/StackMathQA" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
-                      <i class="fab fa-github"></i>
+                      <i class="fa fa-database" aria-hidden="true"></i>
                     </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
+                     <span>Hugging Face Dataset</span>
+                   </a>
                   </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+
             </div>
           </div>
+
+
         </div>
       </div>
     </div>
   </div>
 </section>
 
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
+<!-- Paper abstract-->
+<section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            The development of sophisticated mathematical reasoning in large language models (LLMs) is often hindered by the scarcity of large-scale, high-quality, and domain-specific training data. To address this gap, we introduce <b>StackMathQA</b>, a comprehensive dataset containing nearly 2 million question-and-answer pairs sourced from the Stack Exchange network. This dataset aggregates expert-level and enthusiast discussions from premier platforms including Math Stack Exchange, MathOverflow, Statistics Stack Exchange, and Physics Stack Exchange. We provide the data in multiple formats and curated subsets created through importance resampling to cater to a wide range of research needs, from large-scale pre-training to targeted fine-tuning. This report details the dataset's construction methodology, structure, content, and potential applications, establishing StackMathQA as a valuable resource for advancing machine reasoning in quantitative domains.
           </p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End paper abstract -->
+<!-- End paper abstract-->
 
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+<!-- Dataset Description Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Dataset Overview</h2>
+        <div class="content has-text-justified">
+          <p>
+            StackMathQA is a new large-scale dataset designed to facilitate the training and evaluation of LLMs on mathematical tasks. It consists of approximately 2 million question-and-answer (Q&A) pairs meticulously extracted from several high-authority communities within the Stack Exchange network. These platforms are rich with nuanced questions, detailed explanations, and formal LaTeX mathematical notation, making them an ideal source for training sophisticated reasoning models.
+          </p>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
         
+        <h2 class="title is-4">Data Sources</h2>
+        <div class="content">
+            The dataset is aggregated from four highly respected Stack Exchange sites:
+            <ul>
+                <li><b>Mathematics Stack Exchange</b>: A Q&A site for people studying math at any level.</li>
+                <li><b>MathOverflow</b>: A Q&A site for professional mathematicians.</li>
+                <li><b>Statistics Stack Exchange (Cross Validated)</b>: A Q&A site for people interested in statistics, machine learning, and data analysis.</li>
+                <li><b>Physics Stack Exchange</b>: A Q&A site for active researchers, academics, and students of physics.</li>
+            </ul>
+        </div>
+        
+        <h2 class="title is-4">Dataset Structure and Subsets</h2>
+        <div class="content has-text-justified">
+          <p>
+            To serve a variety of research needs, StackMathQA is provided in multiple formats and curated subsets. The data is available as one-question-to-many-answers (`qalist`) or as flattened one-question-to-one-answer (`1q1a`) pairs.
+          </p>
+          <p>
+            Furthermore, we offer several high-quality subsets generated using <b>importance resampling</b>. This method prioritizes Q&A pairs with higher community engagement (e.g., scores, views), ensuring that even smaller subsets are rich with valuable data. The available curated subsets are:
+          </p>
+          <ul>
+              <li><b>StackMathQA1600K</b> (1.6 million pairs)</li>
+              <li><b>StackMathQA800K</b> (800k pairs)</li>
+              <li><b>StackMathQA400K</b> (400k pairs)</li>
+              <li><b>StackMathQA200K</b> (200k pairs)</li>
+              <li><b>StackMathQA100K</b> (100k pairs)</li>
+          </ul>
+        </div>
+
+        <h2 class="title is-4">Potential Applications</h2>
+        <div class="content has-text-justified">
+            StackMathQA is a versatile resource that can support a wide range of research directions in AI and machine learning:
+            <ul>
+                <li><b>Continual Pre-training</b>: The large scale of the dataset makes it an excellent resource for continual pre-training of foundation models to enhance their understanding of mathematical language, symbols, and reasoning structures.</li>
+                <li><b>Supervised Fine-Tuning (SFT)</b>: The curated Q&A pairs are ideal for fine-tuning LLMs to improve their ability to follow instructions and generate accurate, step-by-step solutions to mathematical problems.</li>
+                <li><b>Domain-Specific Model Development</b>: Researchers can use StackMathQA to train or specialize models for expert domains like theoretical physics, advanced mathematics, or econometrics.</li>
+                <li><b>Benchmark for Mathematical Reasoning</b>: The dataset can serve as a challenging benchmark to evaluate the performance of LLMs on a diverse set of real-world mathematical queries.</li>
+            </ul>
+        </div>
       </div>
     </div>
-  </section>
-<!--End paper poster -->
+  </div>
+</section>
+<!-- End Dataset Description Section -->
 
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <h2 class="title">Citation</h2>
+      <p>
+        Please cite our dataset if you use it in your research. We appreciate your support!
+      </p>
+      <pre><code>@misc{stackmathqa2024,
+      title={StackMathQA: A Curated Collection of 2 Million Mathematical 
+             Questions and Answers Sourced from Stack Exchange}, 
+      author={Zhang, Yifan},
+      year={2024},
+      publisher = {HuggingFace},
+      url = {https://huggingface.co/datasets/math-ai/StackMathQA}
+}</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
@@ -289,24 +196,16 @@
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
-
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+            You are free to borrow the code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
-
         </div>
       </div>
     </div>
   </div>
 </footer>
-
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
 
   </body>
   </html>
